@@ -8,7 +8,7 @@
     }
     document.documentElement.setAttribute('data-theme', theme);
 })();
-</script><!-- hexo injector head_begin end --><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="robots" content="noindex"><meta><title>Archives - Kin&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Kin&#039;s Blog"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Kin&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="Kin&#039;s Blog"><meta property="og:url" content="http://example.com/"><meta property="og:site_name" content="Kin&#039;s Blog"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://example.com/img/og_image.png"><meta property="article:author" content="John Doe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://example.com/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com"},"headline":"Kin's Blog","image":["http://example.com/img/og_image.png"],"author":{"@type":"Person","name":"John Doe"},"publisher":{"@type":"Organization","name":"Kin's Blog","logo":{"@type":"ImageObject","url":"http://example.com/img/logo.svg"}},"description":""}</script><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link data-pjax rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-dark-reasonable.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link data-pjax rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+</script><!-- hexo injector head_begin end --><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="robots" content="noindex"><meta><title>Archives - Kin&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Kin&#039;s Blog"><meta name="msapplication-TileImage" content="/img/cat.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Kin&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="Kin&#039;s Blog"><meta property="og:url" content="http://example.com/"><meta property="og:site_name" content="Kin&#039;s Blog"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://example.com/img/og_image.png"><meta property="article:author" content="John Doe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://example.com/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com"},"headline":"Kin's Blog","image":["http://example.com/img/og_image.png"],"author":{"@type":"Person","name":"John Doe"},"publisher":{"@type":"Organization","name":"Kin's Blog","logo":{"@type":"ImageObject","url":"http://example.com/img/cat.png"}},"description":""}</script><link rel="icon" href="/img/cat.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link data-pjax rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-dark-reasonable.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link data-pjax rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
   (function () {
       function switchTab() {
           if (!location.hash) {
@@ -42,10 +42,24 @@
 html, body, .navbar, .card, .footer, .navbar-menu, .searchbox .searchbox-container {
     transition: background-color .2s, color .2s;
 }
-html[data-theme="dark"] { color-scheme: dark; }
+/* Dark palette (navy blue). Edit these to retint the whole dark theme. */
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --dm-bg: #0b1426;            /* page background */
+    --dm-surface: #13213a;       /* navbar, cards, footer */
+    --dm-inset: #0f1b31;         /* blockquotes, inputs, table headers */
+    --dm-hover: #1c2f50;         /* hover states, tags, inline code */
+    --dm-border: #22375a;
+    --dm-border-strong: #2d4670;
+    --dm-text: #c8d6ec;
+    --dm-heading: #e6eefb;
+    --dm-text-muted: #8da2c4;
+    --dm-link: #6cb4ff;
+    --dm-accent: #3b82f6;        /* current page button */
+}
 html[data-theme="dark"], html[data-theme="dark"] body {
-    background-color: #17181c;
-    color: #c9d1d9;
+    background-color: var(--dm-bg);
+    color: var(--dm-text);
 }
 html[data-theme="dark"] .navbar,
 html[data-theme="dark"] .navbar-menu,
@@ -56,9 +70,9 @@ html[data-theme="dark"] .searchbox .searchbox-container,
 html[data-theme="dark"] .searchbox .searchbox-header,
 html[data-theme="dark"] .searchbox .searchbox-body,
 html[data-theme="dark"] .searchbox .searchbox-input {
-    background-color: #22242a;
-    color: #c9d1d9;
-    border-color: #33363d;
+    background-color: var(--dm-surface);
+    color: var(--dm-text);
+    border-color: var(--dm-border);
 }
 html[data-theme="dark"] .card { box-shadow: 0 4px 10px rgba(0, 0, 0, .35); }
 html[data-theme="dark"] .title,
@@ -81,7 +95,7 @@ html[data-theme="dark"] .navbar-logo,
 html[data-theme="dark"] .navbar-burger,
 html[data-theme="dark"] .searchbox .searchbox-result-item,
 html[data-theme="dark"] .searchbox .searchbox-result-section {
-    color: #e6edf3;
+    color: var(--dm-heading);
 }
 html[data-theme="dark"] .has-text-grey,
 html[data-theme="dark"] .article-meta,
@@ -90,13 +104,13 @@ html[data-theme="dark"] .footer .level-item,
 html[data-theme="dark"] .media-content .date,
 html[data-theme="dark"] .content blockquote,
 html[data-theme="dark"] .searchbox .searchbox-result-preview {
-    color: #9aa4b2 !important;
+    color: var(--dm-text-muted) !important;
 }
 html[data-theme="dark"] a,
 html[data-theme="dark"] .content a,
 html[data-theme="dark"] .article .title a:hover,
 html[data-theme="dark"] .navbar-item.is-active {
-    color: #6ea8fe;
+    color: var(--dm-link);
 }
 html[data-theme="dark"] .navbar-item:hover,
 html[data-theme="dark"] .navbar-item:focus,
@@ -105,67 +119,67 @@ html[data-theme="dark"] .menu-list a:hover,
 html[data-theme="dark"] .menu-list a.is-active,
 html[data-theme="dark"] .searchbox .searchbox-result-item:hover,
 html[data-theme="dark"] .searchbox .searchbox-result-item.active {
-    background-color: #2c2f36;
-    color: #6ea8fe;
+    background-color: var(--dm-hover);
+    color: var(--dm-link);
 }
 html[data-theme="dark"] .content blockquote {
-    background-color: #1c1e23;
-    border-left-color: #3a3e46;
+    background-color: var(--dm-inset);
+    border-left-color: var(--dm-border-strong);
 }
 html[data-theme="dark"] .content table th,
 html[data-theme="dark"] .content table td {
-    color: #c9d1d9;
-    border-color: #33363d;
+    color: var(--dm-text);
+    border-color: var(--dm-border);
 }
 html[data-theme="dark"] .content table thead th,
-html[data-theme="dark"] .content table tr:hover { background-color: #1c1e23; }
+html[data-theme="dark"] .content table tr:hover { background-color: var(--dm-inset); }
 html[data-theme="dark"] code:not(.hljs),
 html[data-theme="dark"] .content code:not(.hljs) {
-    background-color: #2c2f36;
+    background-color: var(--dm-hover);
     color: #ff7b72;
 }
-html[data-theme="dark"] hr { background-color: #33363d; }
+html[data-theme="dark"] hr { background-color: var(--dm-border); }
 html[data-theme="dark"] .tag:not(.is-primary):not(.is-link):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-dark),
 html[data-theme="dark"] .tags .tag:not(.is-primary):not(.is-dark) {
-    background-color: #2c2f36;
-    color: #c9d1d9;
+    background-color: var(--dm-hover);
+    color: var(--dm-text);
 }
 html[data-theme="dark"] .input,
 html[data-theme="dark"] .textarea,
 html[data-theme="dark"] .select select {
-    background-color: #1c1e23;
-    border-color: #3a3e46;
-    color: #e6edf3;
+    background-color: var(--dm-inset);
+    border-color: var(--dm-border-strong);
+    color: var(--dm-heading);
 }
 html[data-theme="dark"] .pagination-link,
 html[data-theme="dark"] .pagination-previous,
 html[data-theme="dark"] .pagination-next {
-    background-color: #22242a;
-    border-color: #3a3e46;
-    color: #c9d1d9;
+    background-color: var(--dm-surface);
+    border-color: var(--dm-border-strong);
+    color: var(--dm-text);
 }
 html[data-theme="dark"] .pagination-link.is-current {
-    background-color: #3273dc;
-    border-color: #3273dc;
+    background-color: var(--dm-accent);
+    border-color: var(--dm-accent);
     color: #fff;
 }
 html[data-theme="dark"] .timeline,
 html[data-theme="dark"] .timeline .media,
 html[data-theme="dark"] .timeline .media:last-child::after,
 html[data-theme="dark"] .media + .media {
-    border-color: #33363d;
+    border-color: var(--dm-border);
 }
 html[data-theme="dark"] .article-licensing {
-    background-color: #1c1e23;
-    color: #c9d1d9;
+    background-color: var(--dm-inset);
+    color: var(--dm-text);
 }
 html[data-theme="dark"] .article-licensing::after { color: rgba(255, 255, 255, .06); }
 html[data-theme="dark"] #back-to-top {
-    background-color: #22242a;
-    color: #c9d1d9;
+    background-color: var(--dm-surface);
+    color: var(--dm-text);
 }
 html[data-theme="dark"] .searchbox { background-color: rgba(0, 0, 0, .6); }
-</style><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.2"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="Kin&#039;s Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/tech">Tech</a><a class="navbar-item" href="/movies">Movies</a><a class="navbar-item" href="/trips">Trips</a><a class="navbar-item is-active" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="Dark Mode" href="#dark-mode"><i class="fas fa-moon"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-content"><h3 class="tag is-primary">2026</h3><div class="timeline"><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-09-16T18:03:58.843Z">2026-09-16</time></p><p class="title"><a href="/2026/09/16/hello-world/">Hello World</a></p></div></article></div></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="Kin Chu"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Kin Chu</p><p class="is-size-6 is-block">Software Engineer</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Brighton, UK</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Post</p><a href="/archives/"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories/"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags/"><p class="title">0</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/ppoffice" target="_blank" rel="me noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Github" href="https://github.com/ppoffice"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Instagram" href="https://www.instagram.com/ppoffice/"><i class="fab fa-instagram"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="LinkedIn" href="https://www.linkedin.com/in/ppoffice/"><i class="fab fa-linkedin"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><!--!--><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">Subscribe for updates</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><div class="card widget"><div class="card-content"><div class="notification is-danger">You need to set <code>client_id</code> and <code>slot_id</code> to show this AD unit. Please set it in <code>_config.yml</code>.</div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-09-16T18:03:58.843Z">2026-09-16</time></p><p class="title"><a href="/2026/09/16/hello-world/">Hello World</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2026/09/"><span class="level-start"><span class="level-item">September 2026</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><!--!--></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="Kin&#039;s Blog" height="28"></a><p class="is-size-7"><span>&copy; 2026 John Doe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2026 Kin's Blog. All rights reserved.</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+</style><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.2"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/cat.png" alt="Kin&#039;s Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/home">Home</a><a class="navbar-item is-active" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Dark Mode" href="#dark-mode"><i class="fas fa-moon"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-content"><h3 class="tag is-primary">2026</h3><div class="timeline"><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-09-16T18:03:58.843Z">2026-09-16</time></p><p class="title"><a href="/2026/09/16/hello-world/">Hello World</a></p></div></article></div></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/profile_pic.png" alt="Kin Chu"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Kin Chu</p><p class="is-size-6 is-block">Software Engineer</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Brighton, UK</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Post</p><a href="/archives/"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories/"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags/"><p class="title">0</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/ppoffice" target="_blank" rel="me noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Github" href="https://github.com/kc356"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Instagram" href="https://www.instagram.com/kin_is_ok/"><i class="fab fa-instagram"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="LinkedIn" href="https://www.linkedin.com/in/kc356/"><i class="fab fa-linkedin"></i></a></div></div></div><!--!--><!--!--><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-09-16T18:03:58.843Z">2026-09-16</time></p><p class="title"><a href="/2026/09/16/hello-world/">Hello World</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2026/09/"><span class="level-start"><span class="level-item">September 2026</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><!--!--></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/cat.png" alt="Kin&#039;s Blog" height="28"></a><p class="is-size-7"><span>&copy; 2026 John Doe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2026 Kin's Blog. All rights reserved.</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
                     clipboard: true,
